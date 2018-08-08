@@ -1,0 +1,10 @@
+Bhosari station,18.6147,73.8246,2,Bajaj
+Kasarwadi,18.6061,73.8228,2,Hero
+Phugewadi,18.587,73.8346,4,Toyota
+Khadki,18.5704,73.8595,4,Hyundai
+Shivaji nagar,18.5308,73.8475,2,Royal enfield
+
+
+
+
+

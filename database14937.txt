@@ -1,0 +1,43 @@
+drop database db14937;
+create database db14937;
+use db14937;
+
+create table boothInfo(
+bid int(4) primary key auto_increment,
+loginid varchar(30),
+password varchar(50),
+boothLocation varchar(50)
+);
+
+create table vehicalInfo(
+vid int(4) primary key auto_increment,
+vnumber varchar(20),
+rfid varchar(30),
+oName varchar(50),
+mobile varchar(20),
+vType varchar(30)
+);
+
+create table stolenvehicallog(
+rfid varchar(30),
+latitude varchar(30),
+longitude varchar(30),
+location varchar(150),
+DateTime varchar(150),
+signal_id int(4)
+);
+create table normalvehicallog(
+rfid varchar(30),
+latitude varchar(30),
+longitude varchar(30),
+location varchar(150),
+DateTime varchar(150),
+signal_id int(4)
+);
+
+
+
+
+
+
+
